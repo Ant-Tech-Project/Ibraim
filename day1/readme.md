@@ -30,7 +30,9 @@ Git is destributed version control system. It is free and open-source.It is prim
 |![Alt text](https://media.licdn.com/dms/image/D5612AQFqbZTR8Q1V5A/article-inline_image-shrink_1500_2232/0/1696544144712?e=1712793600&v=beta&t=14uufiOn78XzZHdCOqewrW5TiynqWdbhNzEV-J8Ox4s "Optional title") |![Alt text](https://media.licdn.com/dms/image/D5612AQF7c-D-KQtdxQ/article-inline_image-shrink_1500_2232/0/1696544158348?e=1712793600&v=beta&t=U7wXbLlV4uBsGY-0xB0VERaTFfhlOuohck51_4O3nqE "Optional title") |
 
 ### How to install Git on different operating systems?
-
+|Linux|`sudo dnf install git-all`<br>`sudo apt install git-all`|
+|Windows||
+|MacOS||
 ### Introduce fundamental commands such as git init, git add, git commit
 
 ### Explain the concept of the staging area
