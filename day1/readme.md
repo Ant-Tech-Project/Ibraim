@@ -7,11 +7,11 @@
 - [Introduce fundamental commands such as git init, git add, git commit](#introduce-fundamental-commands-such-as-git-init-git-add-git-commit)
 - [Explain the concept of the staging area](#explain-the-concept-of-the-staging-area)
 ***
-### Define Version Control
+## Define Version Control
 Version control, also known as source control, is the practice of tracking and managing changes to software code. 
 Version control systems are software tools that help software teams manage changes to source code over time.
 ***
-### Explain the purpose and feature of Git
+## Explain the purpose and feature of Git
 Git is destributed version control system. It is free and open-source.It is primarily used for tracking changes in source code during software development.
 #### Features of Git
 - Free and open source
@@ -21,25 +21,25 @@ Git is destributed version control system. It is free and open-source.It is prim
 - Easy Branching
 - Distributed Development.
 ***
-### Discuss the drawbacks of not using version control
+## Discuss the drawbacks of not using version control
 
-### Discuss the difference between centralized and distributed version control
+## Discuss the difference between centralized and distributed version control
 | Centralized | Distributed  |
 |:---|:---|
 |CVCS is a traditional version control system where the source code is stored in a central server maintained by a single authority. Developers check out the code they need to work on and make changes directly to that codebase. Once the changes are made, they commit the code back to the central server.| DVCS is an evolution of version control systems that address the limitations of CVCS by allowing developers to create local copies of the code repository, complete with the entire history. Each developer has a full copy of the repository on their local machine, including the change history.|
 |![Alt text](https://media.licdn.com/dms/image/D5612AQFqbZTR8Q1V5A/article-inline_image-shrink_1500_2232/0/1696544144712?e=1712793600&v=beta&t=14uufiOn78XzZHdCOqewrW5TiynqWdbhNzEV-J8Ox4s "Optional title") |![Alt text](https://media.licdn.com/dms/image/D5612AQF7c-D-KQtdxQ/article-inline_image-shrink_1500_2232/0/1696544158348?e=1712793600&v=beta&t=U7wXbLlV4uBsGY-0xB0VERaTFfhlOuohck51_4O3nqE "Optional title") |
 
-### How to install Git on different operating systems?
+## How to install Git on different operating systems?
 |Installation| |
 |:---|:---|
 |Linux|`sudo dnf install git-all` or `sudo apt install git-all`|
 |Windows|you can use `choco install git`|
 |MacOS|`brew install git`|
-### Introduce fundamental commands such as git init, git add, git commit
+## Introduce fundamental commands such as git init, git add, git commit
 |Command|What it does|
 |:---:|:---|
 |git init|The `git init` command creates a new Git repository. It can be used to convert an existing, unversioned project to a Git repository or initialize a new, empty repository. Most other Git commands are not available outside of an initialized repository, so this is usually the first command you'll run in a new project.|
 |git add|The `git add` command adds a change in the working directory to the staging area. It tells Git that you want to include updates to a particular file in the next commit.<br> However, git add doesn't really affect the repository in any significant way—changes are not actually recorded until you run git commit.|
 |git commit|The `git commit` command captures a snapshot of the project's currently staged changes. Committed snapshots can be thought of as “safe” versions of a project—Git will never change them unless you explicitly ask it to.|
 
-### Explain the concept of the staging area
+## Explain the concept of the staging area
