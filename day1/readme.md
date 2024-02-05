@@ -36,5 +36,9 @@ Git is destributed version control system. It is free and open-source.It is prim
 |Windows|you can use `choco install git`|
 |MacOS|`brew install git`|
 ### Introduce fundamental commands such as git init, git add, git commit
+|Command|What it does|
+|git init|initialization|
+|git add|adding|
+|git commit|creates commit|
 
 ### Explain the concept of the staging area
