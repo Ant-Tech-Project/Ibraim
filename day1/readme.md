@@ -7,9 +7,12 @@
 - Introduce fundamental commands such as git init, git add, git commit.
 - Explain the concept of the staging area.
 
-### Define Version Control
-Version control, also known as source control, is the practice of tracking and managing changes to software code. Version control systems are software tools that help software teams manage changes to source code over time. 
+***
 
+### Define Version Control
+Version control, also known as source control, is the practice of tracking and managing changes to software code. 
+Version control systems are software tools that help software teams manage changes to source code over time. 
+---
 ### Explain the purpose and feature of Git
 Git is destributed version control system. It is free and open-source.
 #### Features of Git
@@ -18,5 +21,6 @@ Git is destributed version control system. It is free and open-source.
 - Creates Backups
 - Scalable 
 - Easy Branching
-- Distributed Development
+- Distributed Development.
 
+---
