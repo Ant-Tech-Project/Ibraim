@@ -27,7 +27,7 @@ Git is destributed version control system. It is free and open-source.It is prim
 | Centralized | Distributed  |
 |:---|:---|
 |CVCS is a traditional version control system where the source code is stored in a central server maintained by a single authority. Developers check out the code they need to work on and make changes directly to that codebase. Once the changes are made, they commit the code back to the central server.| DVCS is an evolution of version control systems that address the limitations of CVCS by allowing developers to create local copies of the code repository, complete with the entire history. Each developer has a full copy of the repository on their local machine, including the change history.|
-|![Alt text](https://media.licdn.com/dms/image/D5612AQFqbZTR8Q1V5A/article-inline_image-shrink_1500_2232/0/1696544144712?e=1712793600&v=beta&t=14uufiOn78XzZHdCOqewrW5TiynqWdbhNzEV-J8Ox4s "Centralized") |![Alt text](https://media.licdn.com/dms/image/D5612AQF7c-D-KQtdxQ/article-inline_image-shrink_1500_2232/0/1696544158348?e=1712793600&v=beta&t=U7wXbLlV4uBsGY-0xB0VERaTFfhlOuohck51_4O3nqE "Destributed") |
+|<img src="https://media.licdn.com/dms/image/D5612AQFqbZTR8Q1V5A/article-inline_image-shrink_1500_2232/0/1696544144712?e=1712793600&v=beta&t=14uufiOn78XzZHdCOqewrW5TiynqWdbhNzEV-J8Ox4s" alt="staging area" style="width:500px;"/>|<img src="https://media.licdn.com/dms/image/D5612AQF7c-D-KQtdxQ/article-inline_image-shrink_1500_2232/0/1696544158348?e=1712793600&v=beta&t=U7wXbLlV4uBsGY-0xB0VERaTFfhlOuohck51_4O3nqE" alt="staging area" style="width:500px;"/> |
 
 ## How to install Git on different operating systems?
 |Installation| |
@@ -48,4 +48,5 @@ The primary function of the git add command, is to promote pending changes in th
 
 Instead of committing all of the changes you've made since the last commit, the stage lets you group related changes into highly focused snapshots before actually committing it to the project history. This means you can make all sorts of edits to unrelated files, then go back and split them up into logical commits by adding related changes to the stage and commit them piece-by-piece. As in any revision control system, it’s important to create atomic commits so that it’s easy to track down bugs and revert changes with minimal impact on the rest of the project.
 <!-- ![Staging Area](https://www.devopsuniversity.org/wp-content/uploads/2021/01/git-repository.jpg "Staging Area") -->
-<img src="https://www.devopsuniversity.org/wp-content/uploads/2021/01/git-repository.jpg" alt="staging area" style="width:300px;"/>
+<img src="https://www.devopsuniversity.org/wp-content/uploads/2021/01/git-repository.jpg" alt="staging area" style="width:500px;"/>
+
