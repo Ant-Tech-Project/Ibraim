@@ -37,7 +37,7 @@ Git is destributed version control system. It is free and open-source.It is prim
 |MacOS|`brew install git`|
 ### Introduce fundamental commands such as git init, git add, git commit
 |Command|What it does|
-|:---|:---|
+|:---:|:---|
 |git init|The `git init` command creates a new Git repository. It can be used to convert an existing, unversioned project to a Git repository or initialize a new, empty repository. Most other Git commands are not available outside of an initialized repository, so this is usually the first command you'll run in a new project.|
 |git add|The `git add` command adds a change in the working directory to the staging area. It tells Git that you want to include updates to a particular file in the next commit. However, git add doesn't really affect the repository in any significant way—changes are not actually recorded until you run git commit.|
 |git commit|The `git commit` command captures a snapshot of the project's currently staged changes. Committed snapshots can be thought of as “safe” versions of a project—Git will never change them unless you explicitly ask it to.|
