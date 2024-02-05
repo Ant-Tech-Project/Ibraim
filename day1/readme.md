@@ -48,3 +48,6 @@ The primary function of the git add command, is to promote pending changes in th
 
 Instead of committing all of the changes you've made since the last commit, the stage lets you group related changes into highly focused snapshots before actually committing it to the project history. This means you can make all sorts of edits to unrelated files, then go back and split them up into logical commits by adding related changes to the stage and commit them piece-by-piece. As in any revision control system, it’s important to create atomic commits so that it’s easy to track down bugs and revert changes with minimal impact on the rest of the project.
 <img src="https://www.devopsuniversity.org/wp-content/uploads/2021/01/git-repository.jpg" alt="staging area"  margin="250px" style="width:500px;"/>
+<p align="center">
+  <img width="460" height="300" src="https://picsum.photos/460/300">
+</p>
