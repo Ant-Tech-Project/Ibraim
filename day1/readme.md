@@ -32,7 +32,7 @@ Git is destributed version control system. It is free and open-source.It is prim
 ### How to install Git on different operating systems?
 |Installation| |
 |:---|:---|
-|Linux|`sudo dnf install git-all`|
+|Linux|`sudo dnf install git-all` or `sudo apt install git-all`|
 |Windows|you can use `choco install git`|
 |MacOS|`brew install git`|
 ### Introduce fundamental commands such as git init, git add, git commit
