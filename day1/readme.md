@@ -27,7 +27,7 @@ Git is destributed version control system. It is free and open-source.It is prim
 | Centralized | Distributed  |
 |:---|:---|
 |CVCS is a traditional version control system where the source code is stored in a central server maintained by a single authority. Developers check out the code they need to work on and make changes directly to that codebase. Once the changes are made, they commit the code back to the central server.| DVCS is an evolution of version control systems that address the limitations of CVCS by allowing developers to create local copies of the code repository, complete with the entire history. Each developer has a full copy of the repository on their local machine, including the change history.|
-|<img src="https://media.licdn.com/dms/image/D5612AQFqbZTR8Q1V5A/article-inline_image-shrink_1500_2232/0/1696544144712?e=1712793600&v=beta&t=14uufiOn78XzZHdCOqewrW5TiynqWdbhNzEV-J8Ox4s" alt="staging area" style="width:500px;"/>|<img src="https://media.licdn.com/dms/image/D5612AQF7c-D-KQtdxQ/article-inline_image-shrink_1500_2232/0/1696544158348?e=1712793600&v=beta&t=U7wXbLlV4uBsGY-0xB0VERaTFfhlOuohck51_4O3nqE" alt="staging area" style="width:500px;"/> |
+|<img src="https://media.licdn.com/dms/image/D5612AQFqbZTR8Q1V5A/article-inline_image-shrink_1500_2232/0/1696544144712?e=1712793600&v=beta&t=14uufiOn78XzZHdCOqewrW5TiynqWdbhNzEV-J8Ox4s" alt="centralized" style="height:300px;"/>|<img src="https://media.licdn.com/dms/image/D5612AQF7c-D-KQtdxQ/article-inline_image-shrink_1500_2232/0/1696544158348?e=1712793600&v=beta&t=U7wXbLlV4uBsGY-0xB0VERaTFfhlOuohck51_4O3nqE" alt="distributed" style="height:300px;"/> |
 ***
 ## How to install Git on different operating systems?
 |Installation| |
