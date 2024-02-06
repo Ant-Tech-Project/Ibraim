@@ -59,3 +59,7 @@ Instead of committing all of the changes you've made since the last commit, the 
 <p align="center">
 <img src="https://www.devopsuniversity.org/wp-content/uploads/2021/01/git-repository.jpg" alt="staging area"  margin="250px" style="width:500px;"/>
 </p>
+
+How to remove from Stagin area 
+`git reset HEAD -- path/to/file`
+`git reset` to unstage all files
