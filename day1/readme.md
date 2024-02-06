@@ -23,8 +23,8 @@ Git is destributed version control system. It is free and open-source.It is prim
 ***
 ## Discuss the drawbacks of not using version control
 #### Not using a version control system can lead to several drawbacks, especially for software development and collaboration:
-|:--- | :--- |
 | Lack of History| This means that if a mistake is made or a file is lost, it cannot be easily traced back to find the original version or to understand how the file got into its current state|
+|:--- | :--- |
 | Difficulty | Multiple developers working on the same codebase without version control can overwrite each other's changes, leading to confusion and potential loss of work|
 | Single Point of Failure | In a centralized version control system, if the central server fails, all developers lose access to the codebase|
 | Conflict Resolution| Managing changes made by different developers can be challenging without a version control system. Conflicts can occur when developers modify the same lines of code and attempt to merge their changes. |
