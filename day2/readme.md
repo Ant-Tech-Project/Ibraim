@@ -38,5 +38,33 @@ The `git pull` command is actually a combination of two other commands, `git fet
 `git pull <remote>`
 ***
 ## Explain the concept of branches and their importance.
+Git branches are effectively a pointer to a snapshot of your changes. When you want to add a new feature or fix a bug—no matter how big or how small—you spawn a new branch to encapsulate your changes.<br>
+A branch represents an independent line of development. Branches serve as an abstraction for the edit/stage/commit process. You can think of them as a way to request a brand new working directory, staging area, and project history. New commits are recorded in the history for the current branch, which results in a fork in the history of the project.
+
 ## Demonstrate creating, switching, and deleting branches.
+
+`git branch`
+List all of the branches in your repository. This is synonymous with git branch --list.
+
+`git branch <branch>`
+Create a new branch called ＜branch＞. This does not check out the new branch.
+
+`git branch -d <branch>`
+Delete the specified branch. This is a “safe” operation in that Git prevents you from deleting the branch if it has unmerged changes.
+
+`git branch -D <branch>`
+Force delete the specified branch, even if it has unmerged changes. This is the command to use if you want to permanently throw away all of the commits associated with a particular line of development.
+
+`git branch -m <branch>`
+Rename the current branch to ＜branch＞.
+
+`git branch -a`
+List all remote branches.
+
+`git checkout -b ＜new-branch＞`
+The above example simultaneously creates and checks out ＜new-branch＞.
+
+
+`git checkout ＜branchname＞`
+Switching branches is a straightforward operation. Executing the following will point HEAD to the tip of ＜branchname＞.
 ## Discuss the merging process in Git.
