@@ -7,7 +7,7 @@
 
 ## Introduce the concept of remote repositories.
 ## Discuss commands like git clone, git push, and git pull
-### `**git clone**`
+### `git clone`
 is a Git command line utility which is used to target an existing repository and create a clone, or copy of the target repository. In this page we'll discuss extended configuration options and common use cases of `git clone`.
 **Cloning to a specific folder**
 `git clone <repo> <directory>`
