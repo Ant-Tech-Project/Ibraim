@@ -76,3 +76,12 @@ Merging is Git's way of putting a forked history back together again. The `git m
 <img src="https://wac-cdn.atlassian.com/dam/jcr:c6db91c1-1343-4d45-8c93-bdba910b9506/02%20Branch-1%20kopiera.png?cdnVersion=1434" alt="merge"  margin="250px" style="width:500px;"/>
 </p>
 
+### Fast Forward Merge
+<p align="center">
+<img src="https://wac-cdn.atlassian.com/dam/jcr:d90f2536-7951-4e5e-ab79-f45a502fb4c8/03-04%20Fast%20forward%20merge.svg?cdnVersion=1434" alt="merge"  margin="250px" style="width:500px;"/>
+</p>
+
+### 3 Way Merge
+<p align="center">
+<img src="https://wac-cdn.atlassian.com/dam/jcr:91aece4a-8fa0-4fc3-bae9-69d51932f104/05-06%20Fast%20forward%20merge.svg?cdnVersion=1434" alt="merge"  margin="250px" style="width:500px;"/>
+</p>
