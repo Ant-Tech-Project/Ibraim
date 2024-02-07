@@ -16,7 +16,7 @@ Unmerged paths:
 (use "git add/rm ..." as appropriate to mark resolution)
 both modified: hello.py
 ```
-#### Types of merge conflicts
+### Types of merge conflicts
 1. **Git fails to start the merge**<br>
 A merge will fail to start when Git sees there are changes in either the working directory or staging area of the current project. Git fails to start the merge because these pending changes could be written over by the commits that are being merged in. When this happens, it is not because of conflicts with other developer's, but conflicts with pending local changes. The local state will need to be stabilized using `git stash`, `git checkout`, `git commit` or `git reset`. 
 ```bash
