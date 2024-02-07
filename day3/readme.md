@@ -17,12 +17,13 @@ Unmerged paths:
 both modified: hello.py
 ```
 #### Types of merge conflicts
-- Git fails to start the merge<br>
+1. **Git fails to start the merge**<br>
 A merge will fail to start when Git sees there are changes in either the working directory or staging area of the current project. Git fails to start the merge because these pending changes could be written over by the commits that are being merged in. When this happens, it is not because of conflicts with other developer's, but conflicts with pending local changes. The local state will need to be stabilized using `git stash`, `git checkout`, `git commit` or `git reset`. 
 ```bash
 error: Entry '<fileName>' not uptodate. Cannot merge. (Changes in working directory)
 ```
-- Git fails during the merge
+2. **Git fails during the merge**<br>
+A failure DURING a merge indicates a conflict between the current local branch and the branch being merged. This indicates a conflict with another developers code. Git will do its best to merge the files but will leave things for you to resolve manually in the conflicted files.
 ```bash
 error: Entry '<fileName>' would be overwritten by merge. Cannot merge. (Changes in staging area)
 ```
