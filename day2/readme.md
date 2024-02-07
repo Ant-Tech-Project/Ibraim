@@ -66,6 +66,14 @@ List all remote branches.
 `git checkout -b ＜new-branch＞`
 The above example simultaneously creates and checks out ＜new-branch＞.
 
+To delete a remote branch execute the following.
+
+`git push origin --delete crazy-experiment`
+
+or
+
+`git push origin :crazy-experiment`
+
 
 `git checkout ＜branchname＞`
 Switching branches is a straightforward operation. Executing the following will point HEAD to the tip of ＜branchname＞.
