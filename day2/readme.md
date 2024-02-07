@@ -80,7 +80,7 @@ Merging is Git's way of putting a forked history back together again. The `git m
 </p>
 
 ### Fast Forward Merge
-<p align="center" backgound-color="grey">
+<p align="center" background-color="grey">
 <img src="https://wac-cdn.atlassian.com/dam/jcr:d90f2536-7951-4e5e-ab79-f45a502fb4c8/03-04%20Fast%20forward%20merge.svg?cdnVersion=1434" alt="merge"  margin="250px" style="width:500px;"/>
 </p>
 
