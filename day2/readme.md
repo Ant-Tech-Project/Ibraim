@@ -6,6 +6,8 @@
 - [Discuss the merging process in Git.](#discuss-the-merging-process-in-git)
 
 ## Introduce the concept of remote repositories.
+To be able to collaborate on any Git project, you need to know how to manage your remote repositories. Remote repositories are versions of your project that are hosted on the Internet or network somewhere. You can have several of them, each of which generally is either read-only or read/write for you. Collaborating with others involves managing these remote repositories and pushing and pulling data to and from them when you need to share work. Managing remote repositories includes knowing how to add remote repositories, remove remotes that are no longer valid, manage various remote branches and define them as being tracked or not, and more. 
+
 ## Discuss commands like git clone, git push, and git pull
 ### `git clone`
 is a Git command line utility which is used to target an existing repository and create a clone, or copy of the target repository. In this page we'll discuss extended configuration options and common use cases of `git clone`.<br>
@@ -68,3 +70,9 @@ The above example simultaneously creates and checks out ＜new-branch＞.
 `git checkout ＜branchname＞`
 Switching branches is a straightforward operation. Executing the following will point HEAD to the tip of ＜branchname＞.
 ## Discuss the merging process in Git.
+Merging is Git's way of putting a forked history back together again. The `git merge` command lets you take the independent lines of development created by `git branch` and integrate them into a single branch.
+
+<p align="center">
+<img src="https://wac-cdn.atlassian.com/dam/jcr:c6db91c1-1343-4d45-8c93-bdba910b9506/02%20Branch-1%20kopiera.png?cdnVersion=1434" alt="merge"  margin="250px" style="width:500px;"/>
+</p>
+
