@@ -81,6 +81,9 @@ Merging is Git's way of putting a forked history back together again. The `git m
 <img src="https://wac-cdn.atlassian.com/dam/jcr:d90f2536-7951-4e5e-ab79-f45a502fb4c8/03-04%20Fast%20forward%20merge.svg?cdnVersion=1434" alt="merge"  margin="250px" style="width:500px;"/>
 </p>
 
+`git merge --no-ff <branch>`
+This command merges the specified branch into the current branch, but always generates a merge commit (even if it was a fast-forward merge). This is useful for documenting all merges that occur in your repository.
+
 ### 3 Way Merge
 <p align="center">
 <img src="https://wac-cdn.atlassian.com/dam/jcr:91aece4a-8fa0-4fc3-bae9-69d51932f104/05-06%20Fast%20forward%20merge.svg?cdnVersion=1434" alt="merge"  margin="250px" style="width:500px;"/>
