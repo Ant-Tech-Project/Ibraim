@@ -5,6 +5,8 @@
 - [provide a step-by-step instruction for how to resolve a conflict](#provide-a-step-by-step-instruction-for-how-to-resolve-a-conflict)
 
 ## What can cause a conflict? 
+**Merge conflicts happen when you merge branches that have competing commits, and Git needs your help to decide which changes to incorporate in the final merge.**
+
 If the two branches you're trying to merge both changed the same part of the same file, Git won't be able to figure out which version to use. When such a situation occurs, it stops right before the merge commit so that you can resolve the conflicts manually.
 
 The great part of Git's merging process is that it uses the familiar edit/stage/commit workflow to resolve merge conflicts. When you encounter a merge conflict, running the git status command shows you which files need to be resolved. For example, if both branches modified the same section of hello.py, you would see something like the following:
@@ -13,6 +15,15 @@ On branch main
 Unmerged paths:
 (use "git add/rm ..." as appropriate to mark resolution)
 both modified: hello.py
+```
+#### Types of merge conflicts
+- Git fails to start the merge
+```bash
+error: Entry '<fileName>' not uptodate. Cannot merge. (Changes in working directory)
+```
+- Git fails during the merge
+```
+error: Entry '<fileName>' would be overwritten by merge. Cannot merge. (Changes in staging area)
 ```
 
 ## Cover strategies for conflict resolution
