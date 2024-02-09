@@ -29,5 +29,13 @@ error: Entry '<fileName>' would be overwritten by merge. Cannot merge. (Changes 
 ```
 
 ## Cover strategies for conflict resolution
-## Work in pairs: Create a new repo, create a conflict and practice conflict resolution
-## provide a step-by-step instruction for how to resolve a conflict
+
+There are a few steps that could reduce the steps needed to resolve merge conflicts in Git.
+
+- Step 1: The easiest way to resolve a conflicted file is to open it and make any necessary changes.
+
+- Step 2: After editing the file, we can use the git add a command to stage the new merged content.
+
+- Step 3: The final step is to create a new commit with the help of the git commit command.
+
+- Step 4: Git will create a new merge commit to finalize the merge.
