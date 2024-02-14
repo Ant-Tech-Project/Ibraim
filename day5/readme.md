@@ -15,3 +15,4 @@ $ git config --global user.email muchiha@example.com
 - Beware of Forks
 
 new line
+new line2
