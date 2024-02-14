@@ -10,8 +10,11 @@ cat $COMMIT_MSG_FILE
 # Check if the commit message starts with the current date
 if [[ $COMMIT_MSG_FILE == $CURRENT_DATE\ * ]]; then
     echo "OK"
+    exit  0 # Exit with success status code
 elif [[ -z $COMMIT_MSG_FILE || $COMMIT_MSG_FILE == *[!0-9]* ]]; then
     echo "Msg should contain date"
+    exit  0 # Exit with success status code
 else
     echo "Invalid date format"
+    exit  0 # Exit with success status code
 fi
