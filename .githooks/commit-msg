@@ -1,0 +1,16 @@
+#!/bin/sh
+
+# Get the current date in dd.mm.yy format
+CURRENT_DATE=$(date "+%d.%m.%y")
+
+# Get the commit message
+COMMIT_MSG_FILE=$1
+START_LINE=`head -n1 $COMMIT_MSG_FILE`
+
+# Check if the first line starts with the current date
+if [[ "$START_LINE" =~ ^$CURRENT_DATE ]]; then
+    exit 0
+else
+    echo "The file does not start with the current date."
+    exit 1
+fi
